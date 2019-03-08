@@ -1,4 +1,4 @@
-const { createQueue } = require('./queue')
+const { createQueue } = require('./index')
 
 function createPriorityQueue() {
 	const lowPriorityQueue = createQueue();
