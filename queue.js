@@ -20,12 +20,4 @@ function createQueue() {
 	}
 };
 
-const q = createQueue();
-
-q.enqueue('Magalhaes')
-q.enqueue('Vallades')
-q.enqueue('Rodrigo')
-
-console.log(`peeking ${q.peek()}`)
-console.log(`dequeuing ${q.dequeue()}`);
-console.log(`peeking ${q.peek()}`
+exports.createQueue = createQueue;
